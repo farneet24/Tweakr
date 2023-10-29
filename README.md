@@ -10,10 +10,26 @@ Tweakr is a web-based application that suggests closely related English words ba
 
 ## Under the Hood: Data Structures and Algorithms
 
-- **Trie Data Structure**: Utilized for efficient storage and quick retrieval of words.
+- **Array-based Dictionary**: Utilized for storing the list of possible words.
 - **Edit Distance Algorithm**: Employs dynamic programming to calculate the minimal number of edits required to transform the input string.
+
+### Core Functions
+
+#### `findSimilarWords`
+
+This function takes a `searchTerm` and a `dictionary` and returns an array of words that are within a maximum edit distance of 2 from the `searchTerm`.
+
+- **Algorithm Complexity**: O(n * m) where n is the number of words in the dictionary and m is the average length of the words.
+
+#### `calculateEditDistance`
+
+This function calculates the edit distance between two strings using dynamic programming.
+
+- **Algorithm Complexity**: O(m * n) where m and n are the lengths of the two input strings.
+
+
   
-## Installation
+## Live Demo
 
 The website is live. Just visit [Tweakr](https://ada-assignment-farneet.vercel.app/) to get started. 
 
