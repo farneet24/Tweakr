@@ -46,3 +46,8 @@ The website is live. Just visit [Tweakr](https://ada-assignment-farneet.vercel.a
 
 ## Contributing
 Individuals interested in contributing to the project are encouraged to connect through [LinkedIn](https://www.linkedin.com/in/farneet-singh-6b155b208/).
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+The project is licensed under the MIT License.
